@@ -1,0 +1,4 @@
+ignoreFiles:
+  - content/docs/reference/pkg/*
+
+refLinksErrorLevel: WARNING

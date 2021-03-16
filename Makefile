@@ -27,7 +27,7 @@ ensure_tools:
 serve:
 	@echo -e "\033[0;32mSERVE:\033[0m"
 	$(MAKE) lint
-	./scripts/serve.sh
+	HUGO_ENVIRONMENT=dev ./scripts/serve.sh
 
 .PHONY: serve_marketing
 serve_marketing:

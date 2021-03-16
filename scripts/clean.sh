@@ -4,6 +4,7 @@ yarn cache clean
 rm -rf node_modules
 rm -rf components/node_modules
 rm -rf infrastructure/node_modules
+rm -rf _vendor
 rm -rf public
 rm -rf cypress/screenshots
 rm -rf cypress/videos

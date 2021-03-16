@@ -42,6 +42,9 @@ module.exports = {
                 // All layout files.
                 "./layouts/**/*.html",
 
+                // Vendored theme layouts as well.
+                "./_vendor/**/*.html",
+
                 // Some of our scripts reference CSS classes.
                 "./assets/js/**/*.js",
 
